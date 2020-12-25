@@ -47,7 +47,7 @@ fedTime.on("value",function(data){
   textSize(15);
   
   if(lastFed>=12){
-    text("Last Fed : "+lastFed%13 + " PM", 375, 30);
+    text("Last Fed : "+lastFed%12 + " PM", 375, 30);
   }else if(lastFed==0){
     text("Last Fed : 12 AM", 375, 30);
   }else if(lastFed<12){
